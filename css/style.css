@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+	background: url('http://www.manifestinteractive.com/iphone/screen/images/landing.jpg') no-repeat top left #FFFFFF;
+}
+body[orient="landscape"] {
+    margin: 0;
+    background: url('http://www.manifestinteractive.com/iphone/screen/images/landscape.jpg') no-repeat top left #FFFFFF;
+    -webkit-text-size-adjust: none;
+	height:268px;
+	width:480px;
+	overflow:hidden;
+}
+body[orient="portrait"] {
+	margin: 0;
+	background: url('http://www.manifestinteractive.com/iphone/screen/images/portrait.jpg') no-repeat top left #FFFFFF;
+    -webkit-text-size-adjust: none;
+	height:417px;
+	width:320px;
+	overflow:hidden;
+}
+body[orient="upsidedown"] {
+    margin: 0;
+    background: url('http://www.manifestinteractive.com/iphone/screen/images/upsidedown.jpg') no-repeat top left #FFFFFF;
+    -webkit-text-size-adjust: none;
+	height:268px;
+	width:480px;
+	overflow:hidden;
+}
